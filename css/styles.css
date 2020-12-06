@@ -4,7 +4,8 @@
 body {
   padding-bottom: 3rem;
   color: #5a5a5a;
-  font-family: trebuchet, sans-serif; }
+  font-family: trebuchet, sans-serif;
+  color: #003876; }
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -154,7 +155,7 @@ body {
     margin-top: 7rem; } }
 
 /*Homepage*/
-.nav-link {
+.home-menu .nav-link {
   list-style-type: none;
   text-align: right;
   color: white;
@@ -163,8 +164,11 @@ body {
   justify-content: space-between;
   font-size: 2em;
   margin-top: 4rem; }
-  .nav-link a {
-    color: white; }
+
+.home-menu a {
+  color: white; }
+  .home-menu a .nav-link:hover {
+    color: white !important; }
 
 .menubox {
   background-color: #003876; }
@@ -203,7 +207,15 @@ body {
       display: none; } }
 
 /*Resume page*/
-/*header navigation*/
+/*navigation*/
+.navbar {
+  color: #003876;
+  background-color: #c6c1af;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: inline-flex; }
+
 #header {
   top: 0;
   left: 0;
@@ -218,32 +230,25 @@ body {
     color: white;
     text-align: center; }
 
-.navbar {
-  color: #003876;
-  background-color: #c6c1af;
-  font-weight: 700;
-  margin-left: 0px;
-  margin-right: 0px;
-  display: inline-flex; }
-
 .nav-brand {
   color: #003876;
   font-size: 1em;
   text-transform: uppercase;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-left: 75px; }
 
 .nav-brand:hover {
   text-decoration: none;
   border-bottom: 3px solid #003876;
   color: #003876; }
 
-.nav-link {
+.nav-group .nav-link {
   font-size: 1em;
   color: #003876;
   text-transform: uppercase;
   text-decoration: none; }
 
-.nav-link:hover {
+.nav-group .nav-link:hover {
   border-bottom: 3px solid #003876;
   color: #003876; }
 
@@ -255,7 +260,8 @@ body {
 
 .nav-menu > ul > li {
   position: relative;
-  white-space: nowrap; }
+  white-space: nowrap;
+  margin-left: 30px; }
 
 .nav-menu a {
   display: flex;
@@ -300,27 +306,33 @@ body {
 .nav-menu a:hover span, .nav-menu li:hover > a span {
   display: block; }
 
-.anchor {
-  display: block;
-  margin-top: 18em;
-  font-size: 1em;
-  color: white;
-  text-align: center; }
-  .anchor a {
-    color: white; }
+.menubox-resume {
+  background-color: #003876; }
 
 /*resume page*/
 .favicon-resume {
   float: right;
   margin-right: 50px; }
 
+.resume-proper {
+  margin-left: 75px;
+  margin-right: 75px; }
+  .resume-proper h2 {
+    font-family: calisto, times new roman;
+    font-size: 3em; }
+  .resume-proper h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2em; }
+  .resume-proper h4 {
+    margin-top: 30px; }
+  .resume-proper h5 span {
+    font-style: italic;
+    color: #003876; }
+
 .contact-resume {
   clear: right;
   text-align: center; }
-  .contact-resume h2 {
-    font-family: calisto, times new roman;
-    font-size: 3em;
-    color: #003876; }
   .contact-resume a {
     font-size: 1em;
     color: #003876; }
