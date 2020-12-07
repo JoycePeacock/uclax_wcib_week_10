@@ -100,17 +100,20 @@ body {
 .carousel-caption {
   bottom: 3rem;
   color: #003876;
-  z-index: 10; }
+  display: block; }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
-  background-color: #white; }
+  background-color: white; }
+  .carousel-item h3 {
+    font-family: calisto, times new roman; }
 
 .carousel-item > img {
   top: 0;
   left: 0;
-  height: 100%; }
+  height: 100%;
+  width: auto; }
 
 .carousel-indicators li {
   color: #003876; }
@@ -319,3 +322,44 @@ body {
 
 .carousel-control-prev-icon {
   background-color: #003876; }
+
+.favicon-portfolio {
+  text-align: center;
+  margin-left: 30px; }
+
+.portfolio-head h1 {
+  font-family: calisto, times new roman;
+  font-size: 4em;
+  margin-top: 0;
+  text-align: center;
+  margin-left: -2em; }
+
+.booklists h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 2em; }
+
+.booklists p {
+  text-align: center;
+  color: #003876; }
+
+.booklists a {
+  color: #003876; }
+
+.guides h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.research-guides {
+  background-color: #c6c1af;
+  padding-bottom: 5em; }
+
+.carousel-main {
+  padding: 2em; }
+  .carousel-main h2 {
+    font-size: 1.5em;
+    background: #003876;
+    color: white;
+    padding: 1em; }
