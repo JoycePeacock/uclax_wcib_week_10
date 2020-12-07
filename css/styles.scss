@@ -192,9 +192,10 @@ body {
 }
 
 .jumbotron {
-  margin-top: 600px;
+  margin-top: 400px;
   border-radius: 0px;
   margin-left: -15px;
+  margin-right: -15px;
   position: static;
   background: #c6c1af;
     p {
@@ -215,10 +216,10 @@ body {
 }
 
 .favicon-home {
-  margin-top:20rem;
-  display: block;
+  margin-top: 6em;
   margin-left: auto;
   margin-right: auto;
+  display: block;
   @media only screen and (max-width: 978px) {
     display: none;
   }
@@ -347,12 +348,18 @@ body {
   float: right;
   margin-right: 50px;
 }
+.contact-resume {
+  h2 {
+  font-family: calisto, times new roman;
+  font-size: 4em;
+  }
+}
 .resume-proper {
 margin-left: 75px;
 margin-right: 75px;
-  h2 {
-  font-family: calisto, times new roman;
-  font-size: 3em;
+  a {
+  font-size: 1em;
+  color: #003876;
   }
   h3 {
     margin-top: 40px;
@@ -428,7 +435,7 @@ margin-right: 75px;
   padding: 2em;
   h2 {
     font-size: 1.5em;
-    background: #003876;;
+    background: #003876;
     color: white;
     padding: 1em;
   }
@@ -454,14 +461,15 @@ margin-right: 75px;
   margin-top: 4em;
   margin-bottom: 9em;
   padding-bottom: 5em;
+  a {
+    color: #003876;
+  }
   img {
     border-color: #FFF200;
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    width: 100%;
     }
-  }
 }
 .info {
   text-align: right;
