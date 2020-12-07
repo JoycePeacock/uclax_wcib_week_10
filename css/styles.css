@@ -363,3 +363,41 @@ body {
     background: #003876;
     color: white;
     padding: 1em; }
+
+/*contact*/
+.contact-background {
+  background: url(../images/bookstacks.jpg);
+  background-size: cover;
+  margin: -20px; }
+
+.favicon-contact {
+  z-index: -9999;
+  margin-left: 8rem;
+  margin-top: 40px; }
+
+.contact-box {
+  background: white;
+  border-color: #FFF200;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  margin-top: 4em;
+  margin-bottom: 9em;
+  padding-bottom: 5em; }
+  .contact-box img {
+    border-color: #FFF200;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px; }
+    @media only screen and (max-width: 978px) {
+      .contact-box img {
+        width: 50%; } }
+
+.info {
+  text-align: right;
+  font-size: 1.5em; }
+
+#box-title {
+  font-family: calisto, times new roman;
+  font-size: 4em;
+  text-align: right; }
